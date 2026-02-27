@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++.md",
+                "file": "Программирование.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++"
+              "title": "Программирование"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Программирование.md",
+                "file": "Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Программирование"
+              "title": "Python"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,16 +196,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fc7f9fcb76d81a67",
+  "active": "47d38f80df6a3fed",
   "lastOpenFiles": [
-    "Python.md",
+    "Без названия.canvas",
+    "Программирование.md",
     "C++.md",
+    "Python.md",
     "obsidian",
     "Заметки MarkDown.md",
     "путь/к/картинке.jpg.md",
     "путь/к",
-    "путь",
-    "Без названия.canvas",
-    "Программирование.md"
+    "путь"
   ]
 }
