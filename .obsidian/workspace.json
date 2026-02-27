@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Без названия.md",
+                "file": "Программирование.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Без названия"
+              "title": "Программирование"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#programming",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Закладки"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,16 +197,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0716dca9d641bc95",
+  "active": "fc7f9fcb76d81a67",
   "lastOpenFiles": [
+    "Python.md",
     "C++.md",
-    "Без названия.md",
     "obsidian",
     "Заметки MarkDown.md",
     "путь/к/картинке.jpg.md",
     "путь/к",
     "путь",
     "Без названия.canvas",
-    "Языки Программирования.md"
+    "Программирование.md"
   ]
 }
