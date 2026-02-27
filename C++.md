@@ -1,2 +1,4 @@
 #programminglang 
-# Типы данных
+
+---
+
