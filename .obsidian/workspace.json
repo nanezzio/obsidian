@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,10 +206,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0716dca9d641bc95",
+  "active": "37bd2403b92482a3",
   "lastOpenFiles": [
-    "ТЗ TaskMaster-Pro.md",
     "Python.md",
+    "ТЗ TaskMaster-Pro.md",
     "C++.md",
     "Программирование.md",
     "Без названия.canvas",
