@@ -4,4 +4,9 @@ tags:
 ---
 ---
 
-#Тек
+# Текущие проекты 
+
+```dataview
+table from #todo 
+```
+
