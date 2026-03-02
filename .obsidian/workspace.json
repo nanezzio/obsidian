@@ -59,7 +59,8 @@
               "title": "Примеры кода(Python)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,8 +113,7 @@
               "title": "Закладки"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -220,11 +220,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47d38f80df6a3fed",
+  "active": "37bd2403b92482a3",
   "lastOpenFiles": [
-    "Примеры кода(Python).md",
     "Python.md",
     "ТЗ TaskMaster-Pro.md",
+    "Примеры кода(Python).md",
     "Программирование.md",
     "Без названия",
     "C++.md",
