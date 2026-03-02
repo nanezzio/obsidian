@@ -73,8 +73,7 @@
               "title": "Программирование"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -234,10 +233,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "800e096c9300e161",
+  "active": "47d38f80df6a3fed",
   "lastOpenFiles": [
-    "ТЗ TaskMaster-Pro.md",
     "ToDo.md",
+    "ТЗ TaskMaster-Pro.md",
     "Заметки MarkDown.md",
     "Программирование.md",
     "Примеры кода(Python).md",
