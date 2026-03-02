@@ -1,13 +1,16 @@
 ---
 tags:
   - programminglang
+  - python
 ---
 
 ---
 ## Содержание:
 
-- [[Примеры кода(Python)]]
-
+```dataview
+table
+from #python 
+```
 
 ---
 
