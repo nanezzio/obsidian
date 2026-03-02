@@ -51,9 +51,9 @@ tags:
 - [[Метакласс Singleton]] для TaskManager(user_id)
 - [[Dataclass]] для модели Task
 - [[ABC]] для слоя хранения
-- [[Pydantic#модели|]] для создания и обновления
-- Дескрипторы
-- Магические методы в TaskList
+- [[Pydantic#модели|Pydantic-модели]] для создания и обновления
+- [[Дескрипторы]]
+- [[ООП Py|Магические методы]] в TaskList
 - Context manager
 - F-строки
 ---
