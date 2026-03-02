@@ -44,9 +44,19 @@
               "icon": "lucide-file",
               "title": "Python"
             }
+          },
+          {
+            "id": "d58c920dfb386426",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -206,12 +216,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9704866cd1f15d99",
+  "active": "d58c920dfb386426",
   "lastOpenFiles": [
+    "Python.md",
     "Без названия",
     "Без названия.md",
     "ТЗ TaskMaster-Pro.md",
-    "Python.md",
     "C++.md",
     "Программирование.md",
     "Без названия.canvas",
