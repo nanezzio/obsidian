@@ -1,7 +1,16 @@
-#programminglang
+---
+tags:
+  - programminglang
+---
 
 ---
 ## Содержание:
 
-[[Примеры кода(Python)]]
+- [[Примеры кода(Python)]]
+
+
+---
+
+
+
 
