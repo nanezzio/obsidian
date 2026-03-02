@@ -45,7 +45,8 @@
               "title": "Граф"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -205,10 +206,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47d38f80df6a3fed",
+  "active": "2d36dcfa36755dba",
   "lastOpenFiles": [
-    "ООП Python.md",
     "ТЗ TaskMaster-Pro.md",
+    "ООП Python.md",
     "ООП Python 1.md",
     "Pydantic.md",
     "Работа с файлами.md",
