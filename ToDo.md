@@ -7,6 +7,6 @@ tags:
 # Текущие проекты 
 
 ```dataview
-table from #todo 
+table from #todo_projects  
 ```
 

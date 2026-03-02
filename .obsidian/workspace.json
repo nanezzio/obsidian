@@ -63,8 +63,7 @@
               "title": "Программирование"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,7 +223,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37bd2403b92482a3",
+  "active": "47d38f80df6a3fed",
   "lastOpenFiles": [
     "ToDo.md",
     "ТЗ TaskMaster-Pro.md",
