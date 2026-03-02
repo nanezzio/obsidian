@@ -1,6 +1,5 @@
 ---
 tags:
-  - todo
   - python
   - todo_projects
 ---
