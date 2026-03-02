@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ТЗ TaskMaster-Pro.md",
+                "file": "Создание backup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ТЗ TaskMaster-Pro"
+              "title": "Создание backup"
             }
           },
           {
@@ -45,8 +45,7 @@
               "title": "Граф"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,17 +205,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d36dcfa36755dba",
+  "active": "47d38f80df6a3fed",
   "lastOpenFiles": [
     "ТЗ TaskMaster-Pro.md",
+    "Создание backup.md",
+    "Thread-safe доступ.md",
+    "Работа с файлами.md",
+    "Colorama.md",
+    "Pydantic.md",
+    "Хранение данных в CSV.md",
+    "TUI-интерфейс.md",
     "ООП Python.md",
     "ООП Python 1.md",
-    "Pydantic.md",
-    "Работа с файлами.md",
-    "Хранение данных в CSV.md",
     "Без названия.md",
     "ToDo.md",
-    "TUI-интерфейс.md",
     "C++.md",
     "Python.md",
     "Примеры кода(Python).md",
