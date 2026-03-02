@@ -45,8 +45,7 @@
               "title": "Граф"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,15 +205,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d36dcfa36755dba",
+  "active": "47d38f80df6a3fed",
   "lastOpenFiles": [
-    "TUI-интерфейс.md",
     "ТЗ TaskMaster-Pro.md",
+    "TUI-интерфейс.md",
+    "ToDo.md",
     "Примеры кода(Python).md",
     "Заметки MarkDown.md",
     "Python.md",
     "C++.md",
-    "ToDo.md",
     "Программирование.md",
     "Без названия",
     "Без названия.canvas",
