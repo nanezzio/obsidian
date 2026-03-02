@@ -38,23 +38,17 @@ class TextualApp(App):
         yield Footer()
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
-
         if event.button.id == "button1":
-
             self.query_one("#title").update("Ты нажал на кнопку — ты легенда!")
 
-  
-
         if event.button.id == "button2":
-
-            self.exit("Закрыто по приказу царя.")
-
-  
-  
+            self.exit("Закрыто по приказу царя.")  
 
 if __name__ == "__main__":
-
     app = TextualApp()
-
     app.run()
 ```
+
+--- 
+
+# 
