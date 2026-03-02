@@ -11,16 +11,6 @@
             "id": "47d38f80df6a3fed",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
-            }
-          },
-          {
-            "id": "800e096c9300e161",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "ToDo.md",
@@ -73,7 +63,8 @@
               "title": "Программирование"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#programminglang",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -233,7 +224,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47d38f80df6a3fed",
+  "active": "37bd2403b92482a3",
   "lastOpenFiles": [
     "ToDo.md",
     "ТЗ TaskMaster-Pro.md",
