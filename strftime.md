@@ -105,6 +105,6 @@ from datetime import datetime as dt
 
 s = "10.05.2025"
 d = dt.strptime(s, "%d.%m.%Y")
-
+print(d)
 
 ```
