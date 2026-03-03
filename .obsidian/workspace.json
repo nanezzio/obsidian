@@ -45,8 +45,7 @@
               "title": "Граф"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "лог",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,8 +98,7 @@
               "title": "Закладки"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -207,10 +205,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fc7f9fcb76d81a67",
+  "active": "47d38f80df6a3fed",
   "lastOpenFiles": [
-    "F-строки.md",
     "str.format.md",
+    "F-строки.md",
     "strftime.md",
     "Python.md",
     "Теория (Python).md",
