@@ -1,4 +1,4 @@
 ---
 tags:
-  - todo_projects
+  - python
 ---

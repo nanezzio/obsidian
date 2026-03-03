@@ -1,6 +1,6 @@
 ---
 tags:
-  - todo_study
+  - python
 ---
 ### Понятие 
 

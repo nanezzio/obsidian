@@ -2,7 +2,6 @@
 tags:
   - programminglang
   - python
-  - theory
 ---
 
 ---
