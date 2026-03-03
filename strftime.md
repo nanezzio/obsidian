@@ -18,3 +18,12 @@ print(s) # например: '2026-03-03 22:15:07'
 ```
 
 2. Синтаксис
+Есть два основных варианта:
+
+```python
+import time
+time.strftime(format, t)   #
+
+from datetime import datetime
+dt.
+```
