@@ -85,3 +85,6 @@ from datetime import datetime
 now = datetime.now()
 f"{now:%Y-%m-%d %H:%M}"   # '2026-03-03 21:39'
 ```
+
+
+### Отладочный выводка (only Python)

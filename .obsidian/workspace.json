@@ -45,7 +45,8 @@
               "title": "Граф"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#theory",
+                "query": "лог",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,11 +207,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47d38f80df6a3fed",
+  "active": "fc7f9fcb76d81a67",
   "lastOpenFiles": [
+    "F-строки.md",
     "str.format.md",
     "strftime.md",
-    "F-строки.md",
     "Python.md",
     "Теория (Python).md",
     "Без названия.md",
