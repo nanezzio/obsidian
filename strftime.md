@@ -43,4 +43,17 @@ s2 = time.strftime("%d.%m.%Y г. %H:%M", time.localtime())
 # '24.04.2020 г. 19:26'
 ```
 
-Пример с модул
+Пример с `datetime`:
+
+```python
+from datetime import datetime 
+
+dt = datetime(2025, 12, 31, 12, 59, 59) 
+s = dt.strftime("%Y-%m-%d") 
+# '2025-12-31'
+```
+
+
+3. Основные коды формата
+
+- `%Y` - год полностью
