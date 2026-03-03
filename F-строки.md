@@ -81,5 +81,7 @@ f"{n:^10.2f}"  # ' 1234.57 ' (по центру)
 Пример:
 
 ```python
-
+from datetime import datetime
+now = datetime.now()
+f"{now:%Y-%}"
 ```
