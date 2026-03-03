@@ -83,5 +83,5 @@ f"{n:^10.2f}"  # ' 1234.57 ' (по центру)
 ```python
 from datetime import datetime
 now = datetime.now()
-f"{now:%Y-%}"
+f"{now:%Y-%m-%d %H:%M}"   # '2026-03-03 21:39'
 ```
