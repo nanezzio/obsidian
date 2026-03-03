@@ -10,5 +10,9 @@ tags:
 Есть объект времени (например, `datetime.now()`), а нужно получить строку вроде `"2026-03-03 22:15"` или `"03.03.2026"`. Для этого нужно вызвать `strftime` и передать строку-шаблон с особыми кодами:
 
 ```python
-from da
+from datrtimr import datetime
+
+now = datetime.now()
+s = now.strftime("%Y-%m-%d %H:%M:%S")
+print(s) # например :
 ```
