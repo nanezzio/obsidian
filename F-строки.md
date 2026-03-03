@@ -144,6 +144,14 @@ f"{user!r}"
 Пример: выбор точности в зависимости от значения
 
 ```python
+import decimal 
+value = decimal.Decimal("42.12345") 
+f"Result: {value:{'4.3' if value < 100 else '8.3'}}" 
+# 'Result: 42.1' 
+
+value = decimal.Decimal("142.12345") 
+f"Result: {value:{'4.2' if value < 100 else '8.3'}}" 
+# 'Result: 142'
 ```
 
 
