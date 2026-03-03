@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-строки.md",
+                "file": "strftime.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "F-строки"
+              "title": "strftime"
             }
           },
           {
@@ -208,9 +208,10 @@
   },
   "active": "299b84197baf64a2",
   "lastOpenFiles": [
+    "F-строки.md",
+    "strftime.md",
     "ТЗ TaskMaster-Pro.md",
     "str.format.md",
-    "F-строки.md",
     "ООП Python.md",
     "TUI-интерфейс.md",
     "Context manager.md",
