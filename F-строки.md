@@ -123,5 +123,13 @@ class User:
 		return f"{self.first_name} {self.last_name}"
 		
 	def __repr__(self):
-		return f"User's name is:
+		return f"User's name is: {self.first_name} {self.last_name}"
+		
+user = User("John", "Doe")
+
+f"{user}"
+ # 'John Doe' (используется __str__) 
+ 
+f"{user!r}" 
+# "User's name is: John Doe" (используется __repr__)
 ```
