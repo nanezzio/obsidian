@@ -29,4 +29,18 @@ dt.strftime(format)   # метод объекта datetime
 ```
 
 - `format` - строка с кодами формата (`"%Y-%m-%d"`)
-- `t` - структура времени (`time.struct_time`), обычно берут из 
+- `t` - структура времени (`time.struct_time`), обычно берут из `time.localtime()`; если не передать, берется текущее время
+
+Пример с модулем `time`:
+
+```python
+import time
+
+s1 = time.strftime("%Y-%m-%d", time.localtime()) 
+# '2020-04-24' в примере из документации 
+
+s2 = time.strftime("%d.%m.%Y г. %H:%M", time.localtime()) 
+# '24.04.2020 г. 19:26'
+```
+
+Пример с модул
