@@ -1,4 +1,4 @@
 ---
 tags:
-  - todo_study
+  - todo_projects
 ---
