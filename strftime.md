@@ -22,8 +22,10 @@ print(s) # например: '2026-03-03 22:15:07'
 
 ```python
 import time
-time.strftime(format, t)   #
+time.strftime(format, t)   # функция модуля time
 
 from datetime import datetime
-dt.
+dt.strftime(format)   # метод объекта datetime
 ```
+
+- `format` - строка с кодами формата ()
