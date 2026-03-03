@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,10 +206,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd6495db549bffe8",
+  "active": "299b84197baf64a2",
   "lastOpenFiles": [
-    "strftime.md",
     "str.format.md",
+    "strftime.md",
     "F-строки.md",
     "ТЗ TaskMaster-Pro.md",
     "ООП Python.md",
