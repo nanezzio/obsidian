@@ -1,4 +1,3 @@
 ---
 tags:
-  - todo_projects
 ---
