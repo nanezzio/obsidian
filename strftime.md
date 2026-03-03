@@ -88,5 +88,9 @@ month = now.strftime("%B") # 'November'
 year = now.strftime("%Y") # '2022'
 time_str = now.strftime("%H:%M") # '15:40'
 
-print("Today is")
+print("Today is", now.strftime("%A"), month, day, year)
+# Today is Thursday November 10 2022
 ```
+
+
+4/ 
