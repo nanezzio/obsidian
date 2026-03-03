@@ -37,16 +37,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F-строки.md",
+                "file": "str.format.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "F-строки"
+              "title": "str.format"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,12 +206,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd6495db549bffe8",
+  "active": "299b84197baf64a2",
   "lastOpenFiles": [
+    "str.format.md",
+    "F-строки.md",
     "ТЗ TaskMaster-Pro.md",
     "ООП Python.md",
     "TUI-интерфейс.md",
-    "F-строки.md",
     "Context manager.md",
     "Дескрипторы.md",
     "Pydantic.md",
