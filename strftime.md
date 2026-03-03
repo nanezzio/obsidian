@@ -79,5 +79,10 @@ s = dt.strftime("%Y-%m-%d")
 Примеры:
 
 ```python
-from 
+from datetime import datetime as dt
+
+now = dt.now()
+
+day = now.strftime("%d") # '10'
+monyh
 ```
