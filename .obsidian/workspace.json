@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -221,10 +221,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27a24cf0fbe6bf24",
+  "active": "299b84197baf64a2",
   "lastOpenFiles": [
-    "Python.md",
     "F-строки.md",
+    "Python.md",
     "str.format.md",
     "strftime.md",
     "Теория (Python).md",
