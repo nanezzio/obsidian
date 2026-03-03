@@ -84,5 +84,9 @@ from datetime import datetime as dt
 now = dt.now()
 
 day = now.strftime("%d") # '10'
-monyh
+month = now.strftime("%B") # 'November'
+year = now.strftime("%Y") # '2022'
+time_str = now.strftime("%H:%M") # '15:40'
+
+print("Today is")
 ```
