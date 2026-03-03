@@ -28,4 +28,5 @@ from datetime import datetime
 dt.strftime(format)   # метод объекта datetime
 ```
 
-- `format` - строка с кодами формата ()
+- `format` - строка с кодами формата (`"%Y-%m-%d"`)
+- `t` - структура времени (`time.struct_time`), обычно берут из 
