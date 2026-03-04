@@ -12,6 +12,11 @@ Colorama - библиотека с помощью которой можно оф
 
 С помощью констант `Fore`, `Back`, `Style` становится возможно управлять оформлением без ANSI кодов
 
+
+### Синтаксис
+
+- F
+
 Пример:
 
 ```python
@@ -19,14 +24,15 @@ from colorama import init, Back, Fore, Style
 
 init() # инициализация Colorama
 
+#1
 s = "abc"
 s = Back.WHITE + Style.BRIGHT + Fore.RED + s + Style.RESET_ALL
 
 print(s)
-# Проверяю что 
+# Проверяю что RESET_ALL сработало правильно
 print("Hello")
 
-#3
+#2
 def info(lol):
     print(Fore.CYAN + "[cab] " + Style.RESET_ALL + lol)  
 
