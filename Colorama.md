@@ -15,7 +15,11 @@ Colorama - библиотека с помощью которой можно оф
 Пример:
 
 ```python
-from colorama import init, Bac
+from colorama import init, Back, Fore, Style
+
+init() # инициализация Colorama
+
+
 
 
 ```
