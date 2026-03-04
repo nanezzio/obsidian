@@ -83,23 +83,15 @@ python
 
 Формально: `[[fill]align][sign][#][0][width][,][.precision][type]`.​
 
-- `fill` — символ-заполнитель (кроме `{` и `}`).[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
-- `align` — выравнивание: `<` (влево), `>` (вправо), `^` (центр), `=` (знак слева, цифры справа).[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
-    
-- `sign` — знак числа: `+`, `-` или пробел.[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
-    
+- `fill` — символ-заполнитель (кроме `{` и `}`).​
+- `align` — выравнивание: `<` (влево), `>` (вправо), `^` (центр), = (знак слева, цифры справа).​
+- `sign` — знак числа: `+`, `-` или пробел.​
 - `#` — «альтернативная форма» (например, префиксы `0x`, `0o`, `0b`).
-    
-- `0` — заполнение нулями (частный случай `fill='0', align='='`).[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
-    
-- `width` — минимальная ширина поля.
-    
-- `,` или `_` — разделитель тысяч (запятая или подчёркивание).[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
-    
-- `.precision` — точность (количество знаков).[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
-    
-- `type` — тип: `d`, `b`, `x`, `o`, `f`, `e`, `%`, `s` и др.[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
-    
+- `0` — заполнение нулями (частный случай `fill='0', align='='`).
+- `,` или `_` — разделитель тысяч (запятая или подчёркивание).​
+- `.precision` — точность (количество знаков).​
+- `type` — тип: `d`, `b`, `x`, `o`, `f`, `e`, `%`, `s` и др.​
+
 
 ## Выравнивание и заполнитель
 
