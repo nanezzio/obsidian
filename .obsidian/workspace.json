@@ -31,7 +31,8 @@
               "title": "Граф"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,8 +192,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd6495db549bffe8",
+  "active": "27a24cf0fbe6bf24",
   "lastOpenFiles": [
+    "Colorama.md",
     "ТЗ TaskMaster-Pro.md",
     "Создание backup.md",
     "str.format.md",
@@ -211,7 +213,6 @@
     "Метакласс Singleton.md",
     "Thread-safe доступ.md",
     "Работа с файлами.md",
-    "Colorama.md",
     "Хранение данных в CSV.md",
     "ООП Python 1.md",
     "ToDo.md",
