@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "str.format"
             }
+          },
+          {
+            "id": "88e64db035824d1a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
           }
         ]
       }
@@ -183,10 +193,10 @@
   },
   "active": "27a24cf0fbe6bf24",
   "lastOpenFiles": [
+    "str.format.md",
     "Colorama.md",
     "ТЗ TaskMaster-Pro.md",
     "Создание backup.md",
-    "str.format.md",
     "F-строки.md",
     "strftime.md",
     "Python.md",

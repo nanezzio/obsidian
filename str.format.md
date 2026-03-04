@@ -69,7 +69,7 @@ python
 
 - `!r` → `repr(x)` (техническое представление).
 - `!s` → `str(x)` (человеко-читаемое, по умолчанию).
-- `!a` → `ascii(x)` (экранирует не-ASCII).[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+- `!a` → `ascii(x)` (экранирует не-ASCII).​
 
 Пример:​
 
@@ -103,13 +103,13 @@ python
 
 ## Знаки и числовые форматы
 
-Примеры работы со знаком:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+Примеры работы со знаком:​
 
 python
 
 `"{:+f}; {:+f}".format(3.14, -3.14)   # '+3.140000; -3.140000' "{: f}; {: f}".format(3.14, -3.14)   # ' 3.140000; -3.140000' "{:-f}; {:-f}".format(3.14, -3.14)   # '3.140000; -3.140000'`
 
-Целые числа с разными системами счисления:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+Целые числа с разными системами счисления:​
 
 python
 
@@ -117,13 +117,13 @@ python
 
 ## Разделители тысяч и проценты
 
-Разделители:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+Разделители:​
 
 python
 
 `x = 1234567.8912345 "Вывод: {:,.2f}".format(x)    # 'Вывод: 1,234,567.89' "Вывод: {:_.2f}".format(x)    # 'Вывод: 1_234_567.89'`
 
-Процент:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+Процент:​
 
 python
 
@@ -131,7 +131,7 @@ python
 
 ## Даты и время
 
-`datetime` использует коды `strftime` внутри `format_spec`:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+`datetime` использует коды `strftime` внутри `format_spec`:​
 
 python
 
@@ -139,23 +139,20 @@ python
 
 ## Экранирование фигурных скобок
 
-Чтобы вывести буквальные `{` и `}`, их нужно удвоить в шаблоне:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+Чтобы вывести буквальные `{` и `}`, их нужно удвоить в шаблоне:​
 
 python
 
 `tpl = "Строка №{0} с {{{1}-мя фигурными скобками}}" tpl.format(1, 2) # 'Строка №1 с {2-мя фигурными скобками}'`
 
-Одинарные `{` и `}` без пары воспринимаются как начало/конец поля и вызовут ошибку.[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+Одинарные `{` и `}` без пары воспринимаются как начало/конец поля и вызовут ошибку​
 
 ## Сводка отличий от f-строк
 
 `str.format`:
 
-- Вызывается у строки-шаблона и принимает значения как аргументы.[](https://pythonz.net/references/named/str.format/)​
-    
+- Вызывается у строки-шаблона и принимает значения как аргументы.
 - Удобен, когда шаблон известен заранее, а данные приходят позже, можно хранить шаблон отдельно.
-    
 - Использует тот же мини-язык форматирования, что и f-строки, но без прямых выражений в фигурных скобках (выражения нужно готовить заранее).
-    
 
 F-строки обычно короче и быстрее в современном коде, но `str.format` всё ещё **полезен** для динамических шаблонов и когда нужен более «данный-ориентированный» стиль.
