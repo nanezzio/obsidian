@@ -15,7 +15,7 @@ tags:
 ```python
 "Hello, {}!".format("Vasya")           # 'Hello, Vasya!' 
 "{}, {}, {}".format('a', 'b', 'c')     # 'a, b, c' 
-"{2}, {1}, {0}".format('a', 'b', 'c')  # 'c, b, a'`
+"{2}, {1}, {0}".format('a', 'b', 'c')  # 'c, b, a'
 ```
 ## Поля замены: позиционные и именованные
 
@@ -33,20 +33,20 @@ tags:
 ```python
 "{0} и {1}".format("кот", "пёс")          # 'кот и пёс' 
 "{1} и {0}".format("кот", "пёс")          # 'пёс и кот' 
-"{0}{1}{0}".format("abra", "cad")         # 'abracadabra'`
+"{0}{1}{0}".format("abra", "cad")         # 'abracadabra'
 ```
 
 Если поля идут по порядку, индексы можно опустить (Python 3.1+):
 
 ```python
-`"{}-{}-{}".format(1, 2, 3)               # '1-2-3'`
+`"{}-{}-{}".format(1, 2, 3)               # '1-2-3'
 ```
 
 Аргументы можно распаковывать:
 
 ```python
 "{}-{}-{}".format(*[1, 2, 3])            # '1-2-3' 
-"{2}, {1}, {0}".format(*"abc")           # 'c, b, a'`
+"{2}, {1}, {0}".format(*"abc")           # 'c, b, a'
 ```
 
 ## Именованные аргументы
@@ -80,7 +80,6 @@ obj = {'one': {'sub': 1}, 'two': [10, 2, 30]} "{one[sub]}-{two[1]}".format(**obj
 
 Пример:​
 
-python
 
 ```python
 "repr() shows quotes: {!r}; str() doesn't: {!s}".format('test1', 'test2') 
@@ -107,9 +106,11 @@ python
 
 Примеры:
 
-python
-
-`"{:<30}".format("left aligned")      # 'left aligned                  ' "{:>30}".format("right aligned")     # '                 right aligned' "{:^30}".format("centered")          # '           centered          ' "{:*^30}".format("centered")         # '***********centered***********'`
+```python
+"{:<30}".format("left aligned")      # 'left aligned ' 
+"{:>30}".format("right aligned")     # '                 right aligned'
+"{:^30}".format("centered")          # '           centered          ' "{:*^30}".format("centered")         # '***********centered***********'
+```
 
 ## Знаки и числовые форматы
 
