@@ -38,15 +38,16 @@ tags:
 
 Если поля идут по порядку, индексы можно опустить (Python 3.1+):
 
-python
-
+```python
 `"{}-{}-{}".format(1, 2, 3)               # '1-2-3'`
+```
 
 Аргументы можно распаковывать:
 
-python
-
-`"{}-{}-{}".format(*[1, 2, 3])            # '1-2-3' "{2}, {1}, {0}".format(*"abc")           # 'c, b, a'`
+```python
+"{}-{}-{}".format(*[1, 2, 3])            # '1-2-3' 
+"{2}, {1}, {0}".format(*"abc")           # 'c, b, a'`
+```
 
 ## Именованные аргументы
 
@@ -67,13 +68,10 @@ python
 Часть `!conversion` управляет тем, какая функция применяется к значению перед форматированием:
 
 - `!r` → `repr(x)` (техническое представление).
-    
 - `!s` → `str(x)` (человеко-читаемое, по умолчанию).
-    
 - `!a` → `ascii(x)` (экранирует не-ASCII).[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
-    
 
-Пример:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+Пример:​
 
 python
 
@@ -83,10 +81,9 @@ python
 
 Часть после двоеточия управляет выравниванием, шириной, точностью и типом вывода.
 
-Формально: `[[fill]align][sign][#][0][width][,][.precision][type]`.[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
+Формально: `[[fill]align][sign][#][0][width][,][.precision][type]`.​
 
 - `fill` — символ-заполнитель (кроме `{` и `}`).[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
-    
 - `align` — выравнивание: `<` (влево), `>` (вправо), `^` (центр), `=` (знак слева, цифры справа).[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
     
 - `sign` — знак числа: `+`, `-` или пробел.[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
