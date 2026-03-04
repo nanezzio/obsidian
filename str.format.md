@@ -54,17 +54,21 @@ tags:
 Именованные поля всегда пишутся с именами:
 
 ```python
-"{one}-{two}-{three}".format(one=1, two=2, three=3)  # '1-2-3' 
+"{one}-{two}-{three}".format(one=1, two=2, three=3)  
+# '1-2-3' 
 coord = {"latitude": "37.24N", "longitude": "-115.81W"} "Coordinates: {latitude}, {longitude}".format(**coord) 
-# 'Coordinates: 37.24N, -115.81W'`
+# 'Coordinates: 37.24N, -115.81W'
 ```
 
 
 Можно обращаться к атрибутам и элементам по индексу внутри `field_name`:
 
-python
-
-`c = 3 - 5j ("The complex number {0} is formed from {0.real} and {0.imag}"  ).format(c) # 'The complex number (3-5j) is formed from 3.0 and -5.0.' obj = {'one': {'sub': 1}, 'two': [10, 2, 30]} "{one[sub]}-{two[1]}".format(**obj)      # '1-2'`
+```python
+c = 3 - 5j ("The complex number {0} is formed from {0.real} and {0.imag}"  ).format(c) 
+# 'The complex number (3-5j) is formed from 3.0 and -5.0.' 
+obj = {'one': {'sub': 1}, 'two': [10, 2, 30]} "{one[sub]}-{two[1]}".format(**obj)     
+ # '1-2'
+```
 
 ## Конверсии: `!r`, `!s`, `!a`
 
@@ -78,7 +82,10 @@ python
 
 python
 
-`"repr() shows quotes: {!r}; str() doesn't: {!s}".format('test1', 'test2') # "repr() shows quotes: 'test1'; str() doesn't: test2"`
+```python
+"repr() shows quotes: {!r}; str() doesn't: {!s}".format('test1', 'test2') 
+# "repr() shows quotes: 'test1'; str() doesn't: test2"
+```
 
 ## Мини-язык форматирования `format_spec`
 
