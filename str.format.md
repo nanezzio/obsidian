@@ -12,11 +12,11 @@ tags:
 
 Простейшие примеры:
 
-python
-
+```python
+"Hello, {}!".format("Vasya")           # 'Hello, Vasya!' 
+"{}, {}, {}".format('a', 'b', 'c')     # 'a, b, c' 
+"{2}, {1}, {0}".format('a', 'b', 'c')  # 'c, b, a'`
 ```
-```"Hello, {}!".format("Vasya")           # 'Hello, Vasya!' "{}, {}, {}".format('a', 'b', 'c')     # 'a, b, c' "{2}, {1}, {0}".format('a', 'b', 'c')  # 'c, b, a'`
-
 ## Поля замены: позиционные и именованные
 
 Каждое поле в шаблоне имеет форму: `{field_name!conversion:format_spec}` (всё необязательно).
