@@ -31,8 +31,7 @@
               "title": "Граф"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27a24cf0fbe6bf24",
+  "active": "fd6495db549bffe8",
   "lastOpenFiles": [
     "Colorama.md",
     "ТЗ TaskMaster-Pro.md",
