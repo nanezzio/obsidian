@@ -4,3 +4,169 @@ tags:
 ---
 ### Введение
 
+Метод `str.format` форматирует строку по шаблону: в строке-шаблоне пишутся «поля замены» в фигурных скобках `{}`, а метод подставляет вместо них переданные аргументы и возвращает новую строку.
+
+## Базовая идея и синтаксис
+
+Общий вид: `"шаблон".format(аргументы...)`. Шаблон — это обычная строка, внутри которой есть текст и поля вида `{...}`. Аргументы передаются позиционно (`*args`) и по имени (`**kwargs`). Метод не меняет исходную строку, а создаёт отформатированную копию.
+
+Простейшие примеры:
+
+python
+
+```
+```"Hello, {}!".format("Vasya")           # 'Hello, Vasya!' "{}, {}, {}".format('a', 'b', 'c')     # 'a, b, c' "{2}, {1}, {0}".format('a', 'b', 'c')  # 'c, b, a'`
+
+## Поля замены: позиционные и именованные
+
+Каждое поле в шаблоне имеет форму: `{field_name!conversion:format_spec}` (всё необязательно).
+
+- `field_name` — номер позиционного аргумента или имя ключевого.[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+    
+- `conversion` — `!r`, `!s` или `!a`.
+    
+- `format_spec` — строка мини-языка форматирования (ширина, выравнивание, тип и т.д.).
+    
+
+## Позиционные аргументы
+
+Можно явно указывать индексы:
+
+python
+
+`"{0} и {1}".format("кот", "пёс")          # 'кот и пёс' "{1} и {0}".format("кот", "пёс")          # 'пёс и кот' "{0}{1}{0}".format("abra", "cad")         # 'abracadabra'`
+
+Если поля идут по порядку, индексы можно опустить (Python 3.1+):
+
+python
+
+`"{}-{}-{}".format(1, 2, 3)               # '1-2-3'`
+
+Аргументы можно распаковывать:
+
+python
+
+`"{}-{}-{}".format(*[1, 2, 3])            # '1-2-3' "{2}, {1}, {0}".format(*"abc")           # 'c, b, a'`
+
+## Именованные аргументы
+
+Именованные поля всегда пишутся с именами:
+
+python
+
+`"{one}-{two}-{three}".format(one=1, two=2, three=3)  # '1-2-3' coord = {"latitude": "37.24N", "longitude": "-115.81W"} "Coordinates: {latitude}, {longitude}".format(**coord) # 'Coordinates: 37.24N, -115.81W'`
+
+Можно обращаться к атрибутам и элементам по индексу внутри `field_name`:
+
+python
+
+`c = 3 - 5j ("The complex number {0} is formed from {0.real} and {0.imag}"  ).format(c) # 'The complex number (3-5j) is formed from 3.0 and -5.0.' obj = {'one': {'sub': 1}, 'two': [10, 2, 30]} "{one[sub]}-{two[1]}".format(**obj)      # '1-2'`
+
+## Конверсии: `!r`, `!s`, `!a`
+
+Часть `!conversion` управляет тем, какая функция применяется к значению перед форматированием:
+
+- `!r` → `repr(x)` (техническое представление).
+    
+- `!s` → `str(x)` (человеко-читаемое, по умолчанию).
+    
+- `!a` → `ascii(x)` (экранирует не-ASCII).[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+    
+
+Пример:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+
+python
+
+`"repr() shows quotes: {!r}; str() doesn't: {!s}".format('test1', 'test2') # "repr() shows quotes: 'test1'; str() doesn't: test2"`
+
+## Мини-язык форматирования `format_spec`
+
+Часть после двоеточия управляет выравниванием, шириной, точностью и типом вывода.
+
+Формально: `[[fill]align][sign][#][0][width][,][.precision][type]`.[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
+
+- `fill` — символ-заполнитель (кроме `{` и `}`).[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
+    
+- `align` — выравнивание: `<` (влево), `>` (вправо), `^` (центр), `=` (знак слева, цифры справа).[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
+    
+- `sign` — знак числа: `+`, `-` или пробел.[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
+    
+- `#` — «альтернативная форма» (например, префиксы `0x`, `0o`, `0b`).
+    
+- `0` — заполнение нулями (частный случай `fill='0', align='='`).[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
+    
+- `width` — минимальная ширина поля.
+    
+- `,` или `_` — разделитель тысяч (запятая или подчёркивание).[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+    
+- `.precision` — точность (количество знаков).[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
+    
+- `type` — тип: `d`, `b`, `x`, `o`, `f`, `e`, `%`, `s` и др.[](https://pythonworld.ru/osnovy/formatirovanie-strok-metod-format.html)​
+    
+
+## Выравнивание и заполнитель
+
+Примеры:
+
+python
+
+`"{:<30}".format("left aligned")      # 'left aligned                  ' "{:>30}".format("right aligned")     # '                 right aligned' "{:^30}".format("centered")          # '           centered          ' "{:*^30}".format("centered")         # '***********centered***********'`
+
+## Знаки и числовые форматы
+
+Примеры работы со знаком:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+
+python
+
+`"{:+f}; {:+f}".format(3.14, -3.14)   # '+3.140000; -3.140000' "{: f}; {: f}".format(3.14, -3.14)   # ' 3.140000; -3.140000' "{:-f}; {:-f}".format(3.14, -3.14)   # '3.140000; -3.140000'`
+
+Целые числа с разными системами счисления:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+
+python
+
+`"int: {0:d}; hex: {0:#x}; oct: {0:#o}; bin: {0:#b}".format(42) # 'int: 42; hex: 0x2a; oct: 0o52; bin: 0b101010'`
+
+## Разделители тысяч и проценты
+
+Разделители:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+
+python
+
+`x = 1234567.8912345 "Вывод: {:,.2f}".format(x)    # 'Вывод: 1,234,567.89' "Вывод: {:_.2f}".format(x)    # 'Вывод: 1_234_567.89'`
+
+Процент:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+
+python
+
+`points, total = 19, 22 "Правильные ответы: {:.2%}".format(points / total) # 'Правильные ответы: 86.36%'`
+
+## Даты и время
+
+`datetime` использует коды `strftime` внутри `format_spec`:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+
+python
+
+`import datetime d = datetime.datetime(2021, 7, 3, 11, 13, 13) "{:%Y-%m-%d %H:%M:%S}".format(d)   # '2021-07-03 11:13:13'`
+
+## Экранирование фигурных скобок
+
+Чтобы вывести буквальные `{` и `}`, их нужно удвоить в шаблоне:[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+
+python
+
+`tpl = "Строка №{0} с {{{1}-мя фигурными скобками}}" tpl.format(1, 2) # 'Строка №1 с {2-мя фигурными скобками}'`
+
+Одинарные `{` и `}` без пары воспринимаются как начало/конец поля и вызовут ошибку.[](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)​
+
+## Сводка отличий от f-строк
+
+`str.format`:
+
+- Вызывается у строки-шаблона и принимает значения как аргументы.[](https://pythonz.net/references/named/str.format/)​
+    
+- Удобен, когда шаблон известен заранее, а данные приходят позже, можно хранить шаблон отдельно.
+    
+- Использует тот же мини-язык форматирования, что и f-строки, но без прямых выражений в фигурных скобках (выражения нужно готовить заранее).
+    
+
+F-строки обычно короче и быстрее в современном коде, но `str.format` всё ещё **полезен** для динамических шаблонов и когда нужен более «данный-ориентированный» стиль.
