@@ -53,9 +53,12 @@ tags:
 
 Именованные поля всегда пишутся с именами:
 
-python
+```python
+"{one}-{two}-{three}".format(one=1, two=2, three=3)  # '1-2-3' 
+coord = {"latitude": "37.24N", "longitude": "-115.81W"} "Coordinates: {latitude}, {longitude}".format(**coord) 
+# 'Coordinates: 37.24N, -115.81W'`
+```
 
-`"{one}-{two}-{three}".format(one=1, two=2, three=3)  # '1-2-3' coord = {"latitude": "37.24N", "longitude": "-115.81W"} "Coordinates: {latitude}, {longitude}".format(**coord) # 'Coordinates: 37.24N, -115.81W'`
 
 Можно обращаться к атрибутам и элементам по индексу внутри `field_name`:
 
