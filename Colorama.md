@@ -16,7 +16,8 @@ Colorama - библиотека с помощью которой можно оф
 ### Синтаксис
 
 - Цвет - `Fore.<названием_цвета>`
-- Стиль - `Style.DIM`(бледный), `Styly`
+- Стиль - `Style.DIM`(бледный), `Styly.BRIGHT`(жирный), `Style.NORMAL`,  `Style.RESET_ALL`
+- Фон - `Back`
 
 Пример:
 
