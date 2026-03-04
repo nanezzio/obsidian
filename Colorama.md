@@ -19,7 +19,18 @@ from colorama import init, Back, Fore, Style
 
 init() # инициализация Colorama
 
+s = "abc"
+s = Back.WHITE + Style.BRIGHT + Fore.RED + s + Style.RESET_ALL
 
+print(s)
+# Проверяю что 
+print("Hello")
+
+#3
+def info(lol):
+    print(Fore.CYAN + "[cab] " + Style.RESET_ALL + lol)  
+
+info("123321")
 
 
 ```
