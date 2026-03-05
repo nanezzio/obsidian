@@ -123,9 +123,18 @@ class Animal:
 		return "Some generic sound"
 		
 class Dog(Animal): # Dog наследует Animal
-	def speak(self):
+	def speak(self): # переопределяем метод
 		return "Woof!"
 		
 class Cat(Animal):
+	def speak(self):
+		return "Meow"
+		
+a = Animal()
+d = Dog()
+c = Cat()
+
+print(a.speak()) # Some generic sound
+print(d.speak()) # Woof!
 
 ```
