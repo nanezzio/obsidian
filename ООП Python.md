@@ -278,5 +278,9 @@ print(v1 + v2) # Vector(7, 8)
 `NotImplementedError` - класс всторенного исключения
 
 ```python
-class S
+class Shape:
+	def area(self):
+		raise NotImplementedError("Нужно реализовывать в подклассе")
+		
+
 ```
