@@ -160,5 +160,12 @@ class Airplane:
 		return "Airplane is flying"
 		
 def make_it_fly(obj):
-	# не важно Bird это или Airplane 
+	# не важно Bird это или Airplane главное что есть метод fly()
+	print(obj.fly())
+	
+make_it_fly(Bird()) # Bird is flying
+make_it_fly(Airplane()) # Airplane is flying
 ```
+
+
+### Инкапсуляция и ""
