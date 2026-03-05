@@ -152,5 +152,13 @@ print(c.speak()) # Meow
 
 ```python
 class Bird:
-	def fly(self)
+	def fly(self):
+		return "Burd is flying"
+		
+class Airplane:
+	def fly(self):
+		return "Airplane is flying"
+		
+def make_it_fly(obj):
+	# не важно Bird это или Airplane 
 ```
