@@ -71,5 +71,11 @@ print(Dog.species) # Canis familiaris
 
 ```python
 class Person:
-	def __init__()
+	def __init__(self, name):
+		self.name = name
+		
+	def greet(self): # метод экземпляра
+		return f"Hello, my name is {self.name}"
+		
+p = Person("Em)
 ```
