@@ -239,5 +239,8 @@ class Playlist:
 	def __str__(self):
 		return f"Playlist {self.name}"
 		
-	def __
+	def __len__(self):
+		return len(self.tracks)
+		
+p = Playlist("Workout", [t1], [t2, t3])
 ```
