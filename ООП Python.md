@@ -206,5 +206,11 @@ class BankAccount:
 		self.owner = owner
 		self._balance = balance
 		
-	@
+	@property
+	def balance(self):
+		return self._balance
+		
+	@balance.setter
+	def balance(self, amount):
+		
 ```
