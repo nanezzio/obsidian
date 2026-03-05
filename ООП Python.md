@@ -51,5 +51,10 @@ class Dog:
 		self.name = name
 		slf.age = age
 		
-do
+dog1 = Dog("Miles", 4)
+
+print(dog1.species, dog1.name, dog1.age)
+# Canis familiaris Miles 4
+
+# можно обратиться к атрибуту класса через сам кл
 ```
