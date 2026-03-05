@@ -217,5 +217,8 @@ class BankAccount:
 			
 acc = BankAccount("Alice", 100)
 acc.balance = 150
-print()
+print(acc.balance) # 150
 ```
+
+
+### Dunder-методы и
