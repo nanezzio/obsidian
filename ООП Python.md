@@ -23,5 +23,9 @@ class Student:
 	def info(self):
 		return f"{self.name}: {self.marks}"
 		
-s1 = Student{"Harry", }
+s1 = Student{"Harry", 85}
+s2 = Student{"Hermione", 100}
+
+print(s1.info()) # Harry: 85
+print(s2.info()) #Harmion
 ```
