@@ -293,4 +293,12 @@ class Rectangle(Shape):
 	def __init__(self, w, h):
 		self.w = w
 		self.h = h
+		
+	def area(self):
+		return self.w * self.h
+	
+shapes = [Circle(2), Rectangle(3, 4)]
+
+for s in shapes:
+	# полиморфный вызовЖ общая операция 
 ```
