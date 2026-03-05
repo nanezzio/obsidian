@@ -93,5 +93,15 @@ print(p.greet)  # Hello, my name is Emma
 Пример:
 
 ```python
+class Point:
+	def __init__(self, x, y):
+		# инициализирует состояние объекта
+		self.x = x
+		self.y = y
+		
+	def coords(self):
+		return (self.x, self.y)
+		
+p = Point(2, 5)
 
 ```
