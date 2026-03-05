@@ -43,5 +43,7 @@ print(s2.info()) # Harmione: 100
 
 ```python
 class Dog:
-	spe
+	# атрибут класса - общий для всех собак
+	species = "Canis familiaris"
+	
 ```
