@@ -300,5 +300,8 @@ class Rectangle(Shape):
 shapes = [Circle(2), Rectangle(3, 4)]
 
 for s in shapes:
-	# полиморфный вызовЖ общая операция 
+	# полиморфный вызовЖ общая операция area(), разные классы
+	print(s.area())
+#12.56
+#12
 ```

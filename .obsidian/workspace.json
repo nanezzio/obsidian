@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "ООП Python"
             }
+          },
+          {
+            "id": "473504c9ffbf87eb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,8 +192,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88e64db035824d1a",
+  "active": "473504c9ffbf87eb",
   "lastOpenFiles": [
+    "ООП Python.md",
     "Python.md",
     "ТЗ TaskMaster-Pro.md",
     "str.format.md",
@@ -192,7 +204,6 @@
     "strftime.md",
     "Теория (Python).md",
     "Без названия.md",
-    "ООП Python.md",
     "TUI-интерфейс.md",
     "Context manager.md",
     "Дескрипторы.md",
