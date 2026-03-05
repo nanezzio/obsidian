@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "473504c9ffbf87eb",
+  "active": "e17492a2a205e6f0",
   "lastOpenFiles": [
     "Магические методы.md",
     "ООП Python.md",
