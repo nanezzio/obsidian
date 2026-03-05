@@ -244,4 +244,11 @@ class Playlist:
 		
 p = Playlist("Workout", ["t1", "t2", "t3"])
 print(p)  # Playlist Workout
+print(len(p)) # 3
+```
+
+Пример: перегрузка `+` через `__add__`
+
+```python
+
 ```
