@@ -215,5 +215,7 @@ class BankAccount:
 		if amount >= 0:
 			self._balance = amount
 			
-
+acc = BankAccount("Alice", 100)
+acc.balance = 150
+print()
 ```
