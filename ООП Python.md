@@ -197,3 +197,9 @@ s.set_grade(85)
 print(s.get_grade()) # 85
 # s.__grade # AttributeError: напрямую не видно
 ```
+
+Пример: инкапсуляция через `@property`
+
+```python
+class Banl
+```
