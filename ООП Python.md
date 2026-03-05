@@ -283,5 +283,12 @@ class Shape:
 		raise NotImplementedError("Нужно реализовывать в подклассе")
 		
 class Circle(Shape):
+	def __init__(self,r):
+		self.r = r
+		
+	def area(self):
+		return 3.14 * self.r * self.r
+		
+class Rectangle(Shape):
 	
 ```
