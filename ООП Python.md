@@ -250,5 +250,6 @@ print(len(p)) # 3
 Пример: перегрузка `+` через `__add__`
 
 ```python
-
+class Vector:
+	def __init__(self, a, b):
 ```
