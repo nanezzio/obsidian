@@ -237,5 +237,7 @@ class Playlist:
 		self.tracks = tracks
 		
 	def __str__(self):
+		return f"Playlist {self.name}"
 		
+	def __
 ```
