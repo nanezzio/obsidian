@@ -192,7 +192,8 @@ class Student:
 	def get_grade(self):
 		return self.__grade
 	
-a = Student("Emil")
+s = Student("Emil")
 s.set_grade(85)
-print(s.get)
+print(s.get_grade()) # 85
+# s.__grade # AttributeError: напрямую не видно
 ```
