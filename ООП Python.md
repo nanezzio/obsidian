@@ -77,5 +77,11 @@ class Person:
 	def greet(self): # метод экземпляра
 		return f"Hello, my name is {self.name}"
 		
-p = Person("Em)
+p = Person("Emma")
+print(p.greet)  # Hello, my name is Emma
 ```
+
+
+### Конструктор `__init__` и жизненный цикл
+
+При создании об
