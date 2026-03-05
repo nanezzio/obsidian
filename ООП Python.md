@@ -15,5 +15,6 @@ tags:
 Пример:
 
 ```python
-class
+class Student:
+	def __init__
 ```
