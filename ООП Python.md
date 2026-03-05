@@ -181,5 +181,10 @@ make_it_fly(Airplane()) # Airplane is flying
 
 ```python
 class Student:
-
+	def __init__(self, name):
+		self.name = name
+		self.__grade = 0 # "приватный" атрибут
+		
+	def set_grade(self, grade):
+		if 0 <
 ```
