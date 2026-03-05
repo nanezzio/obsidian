@@ -234,5 +234,8 @@ Dunder-методы (double underscore) задают, как объект уча
 class Playlist:
 	def __init__(self, name, tracks):
 		self.name = name
-		s
+		self.tracks = tracks
+		
+	def __str__(self):
+		
 ```
