@@ -242,5 +242,6 @@ class Playlist:
 	def __len__(self):
 		return len(self.tracks)
 		
-p = Playlist("Workout", [t1], [t2, t3])
+p = Playlist("Workout", ["t1", "t2", "t3"])
+print(p)  # Playlist Workout
 ```
