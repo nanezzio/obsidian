@@ -120,4 +120,12 @@ print(p.coords()) # (2, 5)
 ```python
 class Animal:
 	def speak(self)
+		return "Some generic sound"
+		
+class Dog(Animal): # Dog наследует Animal
+	def speak(self):
+		return "Woof!"
+		
+class Cat(Animal):
+
 ```
