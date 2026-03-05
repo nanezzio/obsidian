@@ -212,5 +212,8 @@ class BankAccount:
 		
 	@balance.setter
 	def balance(self, amount):
-		
+		if amount >= 0:
+			self._balance = amount
+			
+
 ```
