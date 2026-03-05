@@ -46,4 +46,10 @@ class Dog:
 	# атрибут класса - общий для всех собак
 	species = "Canis familiaris"
 	
+	def __init__(self, name, age):
+		# атрибуты экземпляра - у каждого свои
+		self.name = name
+		slf.age = age
+		
+do
 ```
