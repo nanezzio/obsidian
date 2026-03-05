@@ -282,5 +282,6 @@ class Shape:
 	def area(self):
 		raise NotImplementedError("Нужно реализовывать в подклассе")
 		
-
+class Circle(Shape):
+	
 ```
