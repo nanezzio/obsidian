@@ -21,5 +21,7 @@ class Student:
 		self.marks = marks
 		
 	def info(self):
-		return f"
+		return f"{self.name}: {self.marks}"
+		
+s1 = Student{"Harry", }
 ```
