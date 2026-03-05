@@ -256,5 +256,5 @@ class Vector:
 		self.b = b
 		
 	def __add__(self, other):
-		return 
+		return Vector(self.a + other.a)
 ```
