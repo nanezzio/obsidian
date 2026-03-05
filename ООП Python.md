@@ -17,5 +17,9 @@ tags:
 ```python
 class Student:
 	def __init__(self, name, marks):
-		self.name = name # атрибут
+		self.name = name # атрибут экземпляра
+		self.marks = marks
+		
+	def info(self):
+		return f"
 ```
