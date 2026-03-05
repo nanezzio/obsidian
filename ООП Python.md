@@ -201,5 +201,10 @@ print(s.get_grade()) # 85
 Пример: инкапсуляция через `@property`
 
 ```python
-class Banl
+class BankAccount:
+	def __init__(self, owner, balance=0):
+		self.owner = owner
+		self._balance = balance
+		
+	@
 ```
