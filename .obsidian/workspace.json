@@ -31,7 +31,8 @@
               "title": "Бинпоиск"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,10 +204,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e17492a2a205e6f0",
+  "active": "55ef4b58ac8cf307",
   "lastOpenFiles": [
     "Бинпоиск.md",
-    "Pasted image 20260307095939.png",
+    "График роста алгосложности.png",
     "Нетология.md",
     "Магические методы.md",
     "ООП Python.md",
