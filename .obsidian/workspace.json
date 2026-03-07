@@ -31,8 +31,7 @@
               "title": "Бинпоиск"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,7 +203,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "55ef4b58ac8cf307",
+  "active": "e17492a2a205e6f0",
   "lastOpenFiles": [
     "Бинпоиск.md",
     "График роста алгосложности.png",
