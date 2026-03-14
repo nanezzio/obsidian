@@ -31,8 +31,7 @@
               "title": "Динамическое программирование и Жадность"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ac40a69ae27eb680",
+  "active": "42b28f5941f8e303",
   "lastOpenFiles": [
     "Динамическое программирование и Жадность.md",
     "ООП Python.md",
