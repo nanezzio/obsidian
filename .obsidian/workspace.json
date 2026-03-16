@@ -18,17 +18,17 @@
             }
           },
           {
-            "id": "6a3e8f96345f536b",
+            "id": "a1bbd97e74cf0a3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Сортировки.md",
+                "file": "Без названия.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Сортировки"
+              "title": "Без названия"
             }
           }
         ],
@@ -192,8 +192,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a3e8f96345f536b",
+  "active": "a1bbd97e74cf0a3c",
   "lastOpenFiles": [
+    "Без названия.md",
     "Сортировки.md",
     "Динамическое программирование и Жадность.md",
     "Разборные материалы 1.md",
@@ -220,7 +221,6 @@
     "Thread-safe доступ.md",
     "Работа с файлами.md",
     "Хранение данных в CSV.md",
-    "ООП Python 1.md",
     "Без названия",
     "Без названия.canvas",
     "obsidian",
