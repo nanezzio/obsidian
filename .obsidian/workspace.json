@@ -31,8 +31,7 @@
               "title": "Динамический массив. Списки Деки"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,9 +191,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1bbd97e74cf0a3c",
+  "active": "42b28f5941f8e303",
   "lastOpenFiles": [
     "Динамический массив. Списки Деки.md",
+    "Pasted image 20260317204446.png",
     "Сортировки.md",
     "Динамическое программирование и Жадность.md",
     "Разборные материалы 1.md",
@@ -220,7 +220,6 @@
     "Метакласс Singleton.md",
     "Thread-safe доступ.md",
     "Работа с файлами.md",
-    "Хранение данных в CSV.md",
     "Без названия",
     "Без названия.canvas",
     "obsidian",
