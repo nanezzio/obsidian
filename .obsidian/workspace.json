@@ -194,8 +194,9 @@
   },
   "active": "05bffd975ff0bc7b",
   "lastOpenFiles": [
-    "Dataclass.md",
+    "Context manager.md",
     "Пирамиды и деревья поиска.md",
+    "Dataclass.md",
     "Динамический массив. Списки Деки.md",
     "Сравнение Динамического массива и Связных списков.png",
     "Сортировки.md",
@@ -215,7 +216,6 @@
     "strftime.md",
     "Теория (Python).md",
     "TUI-интерфейс.md",
-    "Context manager.md",
     "Дескрипторы.md",
     "Pydantic.md",
     "ABC.md",
