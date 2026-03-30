@@ -31,8 +31,7 @@
               "title": "Орграфы"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92f99e8f38bdcafd",
+  "active": "42b28f5941f8e303",
   "lastOpenFiles": [
     "Орграфы.md",
     "Графы.md",
