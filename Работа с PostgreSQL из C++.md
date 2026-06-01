@@ -168,6 +168,8 @@ pqxx::connection c(
 	"port=5432 "
 	"dbname=my_database "
 	"user=my_database_user "
-	"password=my_password_123"
-)
+	"password=my_password_123");
+	
+c.prepare("insert_book", "INSERT INTO bool(title, author) VALUES($1, $2)");
 ```
+
