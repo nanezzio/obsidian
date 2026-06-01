@@ -32,15 +32,24 @@ target_link_libraries(MyProject1 pqxx) # Линковка libpq++ к проек�
 
 int main()
 {
-	pqxx::connection c(
-		"host=localhost "
-		"port=5432 "
-		"dbname=my_datebase "
-		"user=my_datebase_user "
-		"password=my_password_123");
+	try
+	{
+		pqxx::connection c(
+			"host=localhost "
+			"port=5432 "
+			"dbname=my_datebase "
+			"user=my_datebase_user "
+			"password=my_password_123");
 		
+		// ...
+	} catch (pqxx::sql_error e)
+	{
+		std::cout << e.what() << std::endl;
+	}
 
 
 	return 0;
 }
 ```
+
+Совет: для упрощения обр
