@@ -117,5 +117,11 @@ tx.commit();
 Что такое SQL Injection - предположим вы захотите разрешить пользователю добавить свою книгу на сайт. Можно попросить пользователя ввести имя книги с клавиатуры, например так:
 ```
 std::string newTitle, newAuthor;
-std::cout << "Введите название книги и автора: "
+std::cout << "Введите название книги и автора: " << std::endl;
+std::cin >> newTitle >> newAuthor;
+
+pqxx::work tx{ c };
+
+tx.exec("INSERT INTO book(title, author) "
+	"VALUES('"))
 ```
