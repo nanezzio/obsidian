@@ -103,3 +103,9 @@ tx.exec("INSERT INTO book(title, author) "
 tx.commit();
 ```
 
+Пример выполнения UPDATE-запроса
+```
+pqxx::work tx{ c };
+
+tx.exec("UPDATE book SET author='Федор' where author")
+```
