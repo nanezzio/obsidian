@@ -63,7 +63,8 @@ pqxx::work tx{ c };
 for (auto [title, author] : tx.query<std::string, std::string>(
 	"SELECTR title, author FROM book"))
 {
-	std::cout 
+	std::cout << tittle << "is written by: " << author << ".\n";
 }
-
 ```
+
+Транзакция - попытка внести д
