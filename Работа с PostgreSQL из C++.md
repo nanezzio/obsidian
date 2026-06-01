@@ -26,3 +26,4 @@ target_compile_features(MyProject1 PRIVATE cxx_std_17) # Включить C++17
 target_link_libraries(MyProject1 pqxx) # Линковка libpq++ к проекту
 ```
 
+Для работы с libpq++ необход
