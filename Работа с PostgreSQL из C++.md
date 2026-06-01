@@ -95,5 +95,8 @@ std::cout << "The author you wanted is: " << author << ".\n";
 
 Пример выполнения INSERT-запроса
 ```
+pqxx::work tx{ c };
 
+tx.exec("INSERT INTO book(title, author) "
+	)
 ```
