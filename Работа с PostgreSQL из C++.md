@@ -130,4 +130,6 @@ tx.commit();
 
 В SQL символ комментирования - два дефиса "--".
 Предположим пользователь введет в поле author следующую строку:
-`pwned');`
+`pwned'); drop database my_database; --`
+Тогда итоговый запрос превратится в два запроса:
+`INSERT INTO book(title, author) VALUES('title', 'pwned'); `
