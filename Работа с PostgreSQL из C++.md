@@ -173,3 +173,16 @@ pqxx::connection c(
 c.prepare("insert_book", "INSERT INTO bool(title, author) VALUES($1, $2)");
 ```
 
+Пример вызова prepared statement:
+```
+std::string newTitle, newAuthor;
+std::cout << "Введите название книги и автора: " << std::endl;
+std::cin >> newTitle >> newAuthor;
+
+pqxx::work tx{ c };
+
+tx.execc_prepared("insert_book", newTitle, newAuthor);
+	
+tx.commit();
+```
+
