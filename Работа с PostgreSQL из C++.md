@@ -98,5 +98,5 @@ std::cout << "The author you wanted is: " << author << ".\n";
 pqxx::work tx{ c };
 
 tx.exec("INSERT INTO book(title, author) "
-	)
+	"VALUES('Братья Карамазовы', 'Федор Достоевский')");
 ```
