@@ -135,3 +135,8 @@ tx.commit();
 `INSERT INTO book(title, author) VALUES('title', 'pwned');`
 `drop database my_database; --')`
 
+Два способа избежать SQL Injection:
+- Экранирование данных
+- Prepared statement
+
+Экранирование данных - замена в тексте управляющих символов на соответствующие 
