@@ -123,5 +123,8 @@ std::cin >> newTitle >> newAuthor;
 pqxx::work tx{ c };
 
 tx.exec("INSERT INTO book(title, author) "
-	"VALUES('"))
+	"VALUES('" + newTitle + "', '" + newAuthor + "')");
+	
+tx.commit();
 ```
+
