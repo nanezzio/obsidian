@@ -60,5 +60,10 @@ int main()
 ```
 pqxx::work tx{ c };
 
-for (auto [title,])
+for (auto [title, author] : tx.query<std::string, std::string>(
+	"SELECTR title, author FROM book"))
+{
+	std::cout 
+}
+
 ```
