@@ -69,3 +69,10 @@ for (auto [title, author] : tx.query<std::string, std::string>(
 
 Транзакция - попытка внести данные в таблицу или несколько таблиц, если в процессе вставки данных что-то пойдет не так, то можно полностью откатить сделанное
 
+Можно сделать SELECT-запросы любой сложности:
+```
+pqxx::work tx{ c };
+
+for (auto [title, author] : tx.query<std::string, std::string>(
+	"SELECT id, author, ))
+```
