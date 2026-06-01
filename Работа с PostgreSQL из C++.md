@@ -132,4 +132,6 @@ tx.commit();
 Предположим пользователь введет в поле author следующую строку:
 `pwned'); drop database my_database; --`
 Тогда итоговый запрос превратится в два запроса:
-`INSERT INTO book(title, author) VALUES('title', 'pwned'); `
+`INSERT INTO book(title, author) VALUES('title', 'pwned');`
+`drop database my_database; --')`
+
