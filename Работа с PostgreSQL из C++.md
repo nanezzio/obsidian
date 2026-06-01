@@ -74,5 +74,9 @@ for (auto [title, author] : tx.query<std::string, std::string>(
 pqxx::work tx{ c };
 
 for (auto [title, author] : tx.query<std::string, std::string>(
-	"SELECT id, author, ))
+	"SELECT id, author, tittle FROM book ORDER BY tittle LIMIT 2"))
+{
+	std::cout << tittle << " is written by: " << author << ".\n";
+}
 ```
+
