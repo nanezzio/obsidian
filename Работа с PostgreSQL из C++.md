@@ -15,5 +15,9 @@ libpq++ собирается с помощью CMake, следовательно
 
 Пример CMakeLists.txt:
 ```
-cmake_minimum_require
+cmake_minimum_required(VERSION 3.20)
+project(MyProject1)
+add_executable(MyProject1 main.cpp)
+
+add_subdirectory(C:/path/to/libpqxx libpqxx-bu)
 ```
