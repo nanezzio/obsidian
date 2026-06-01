@@ -107,5 +107,11 @@ tx.commit();
 ```
 pqxx::work tx{ c };
 
-tx.exec("UPDATE book SET author='Федор' where author")
+tx.exec("UPDATE book SET author='Фёдор' where author='Федор'");
+
+tx.commit();
 ```
+
+### Защита от SQL Injection
+
+Что такое SQL Injection - пр
