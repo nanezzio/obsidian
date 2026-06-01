@@ -36,8 +36,11 @@ int main()
 		"host=localhost "
 		"port=5432 "
 		"dbname=my_datebase "
-	)
+		"user=my_datebase_user "
+		"password=my_password_123");
+		
 
 
+	return 0;
 }
 ```
