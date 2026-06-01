@@ -23,5 +23,6 @@ add_subdirectory(C:/path/to/libpqxx libpqxx-build) # указать путь к 
 
 target_compile_features(MyProject1 PRIVATE cxx_std_17) # Включить C++17
 
-target_link_libraries(MyProje)
+target_link_libraries(MyProject1 pqxx) # Линковка libpq++ к проекту
 ```
+
