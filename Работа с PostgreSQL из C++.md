@@ -99,4 +99,7 @@ pqxx::work tx{ c };
 
 tx.exec("INSERT INTO book(title, author) "
 	"VALUES('Братья Карамазовы', 'Федор Достоевский')");
+	
+tx.commit();
 ```
+
