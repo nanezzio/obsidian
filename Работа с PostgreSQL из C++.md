@@ -163,5 +163,11 @@ tx.commit();
 
 Пример создания prepared statement:
 ```
-
+pqxx::connection c(
+	"host=localhost "
+	"port=5432 "
+	"dbname=my_database "
+	"user=my_database_user "
+	"password=my_password_123"
+)
 ```
