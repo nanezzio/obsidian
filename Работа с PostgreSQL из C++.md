@@ -26,4 +26,18 @@ target_compile_features(MyProject1 PRIVATE cxx_std_17) # Включить C++17
 target_link_libraries(MyProject1 pqxx) # Линковка libpq++ к проекту
 ```
 
-Для работы с libpq++ необход
+Для работы с libpq++ необходимо:
+```
+#include <pqxx/pqxx>
+
+int main()
+{
+	pqxx::connection c(
+		"host=localhost "
+		"port=5432 "
+		"dbname=my_datebase "
+	)
+
+
+}
+```
