@@ -143,5 +143,16 @@ tx.commit();
 Для этого libpq++ предоставляет специальный метод: esc()
 Пример экранирования данных:
 ```
-std
+std::string newTitle, newAuthor;
+std::cout << "Введите название книги и автора: " << std::endl;
+std::cin >> newTitle >> newAuthor;
+
+pqxx::work tx{ c };
+
+tx.exec("INSERT INTO book(title, author) "
+	"VALUES('" + tx.esc(newTitle) + "', '" + tx.esc(newAuthor) + "')");
+	
+tx.commit();
 ```
+
+Другой способ - это подготовить шаблон запроса SQL, чтобы 
