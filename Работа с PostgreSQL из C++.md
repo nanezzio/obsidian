@@ -84,5 +84,9 @@ for (auto [title, author] : tx.query<std::string, std::string>(
 ```
 pqxx::work tx{ c };
 
-std::string author = tx.query_value<std
+std::string author = tx.query_value<std::string>(
+	"SELECT author FROM book WHERE id = 3");
+
+std::cout << "The author you wanted is: " << author << ".\n";
 ```
+
