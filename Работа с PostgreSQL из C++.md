@@ -80,3 +80,9 @@ for (auto [title, author] : tx.query<std::string, std::string>(
 }
 ```
 
+Если требуется только одна запись, можно использовать метод `query_value()`:
+```
+pqxx::work tx{ c };
+
+std::string author = tx.query_value<std
+```
