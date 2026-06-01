@@ -90,3 +90,10 @@ std::string author = tx.query_value<std::string>(
 std::cout << "The author you wanted is: " << author << ".\n";
 ```
 
+
+### Insert- и Update- запросы
+
+Пример выполнения INSERT-запроса
+```
+
+```
