@@ -11,10 +11,14 @@
             "id": "cbb331a46f07f38b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "Работа с PostgreSQL из C++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Работа с PostgreSQL из C++"
             }
           }
         ]
