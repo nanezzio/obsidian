@@ -20,8 +20,47 @@
               "icon": "lucide-file",
               "title": "Работа с PostgreSQL из C++"
             }
+          },
+          {
+            "id": "1b70c5151a5f895d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++ и БД. ORM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C++ и БД. ORM"
+            }
+          },
+          {
+            "id": "aab9369904cf645f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          },
+          {
+            "id": "ae0650578a6c11e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Многопоточность.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Многопоточность"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,10 +221,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cbb331a46f07f38b",
+  "active": "aab9369904cf645f",
   "lastOpenFiles": [
-    "Pasted image 20260524190155.png",
+    "Многопоточность.md",
+    "Без названия.md",
+    "C++ и БД. ORM.md",
     "Работа с PostgreSQL из C++.md",
+    "Pasted image 20260524190155.png",
     "Работа с PostgreSQL Создание БД.md",
     "conflict-files-obsidian-git.md",
     "Select-запросы, выборки из одной таблицы.md",
@@ -210,8 +252,6 @@
     "ООП Python.md",
     "Python.md",
     "ТЗ TaskMaster-Pro.md",
-    "str.format.md",
-    "Colorama.md",
     "Без названия",
     "Без названия.canvas",
     "obsidian",
