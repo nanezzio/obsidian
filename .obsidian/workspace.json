@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -221,7 +221,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ae0650578a6c11e2",
+  "active": "aab9369904cf645f",
   "lastOpenFiles": [
     "Многопоточность.md",
     "Без названия.md",
