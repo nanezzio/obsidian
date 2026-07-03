@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Без названия.md",
+                "file": "Сетевое программирование.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Без названия"
+              "title": "Сетевое программирование"
             }
           }
         ],
@@ -195,7 +195,7 @@
   },
   "active": "9730a19f59e5fc33",
   "lastOpenFiles": [
-    "Без названия.md",
+    "Сетевое программирование.md",
     "Конкуренция, состояние гонки. Race condition.md",
     "Многопоточность.md",
     "C++ и БД. ORM.md",
