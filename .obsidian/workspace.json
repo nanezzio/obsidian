@@ -31,7 +31,8 @@
               "title": "Порождающие шаблоны Builder, Singleton, Factory Method, Abstract Factory, Prototype.mp4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8181c3353573531c",
+  "active": "e33c4f7efb5c9e19",
   "lastOpenFiles": [
     "Порождающие шаблоны Builder, Singleton, Factory Method, Abstract Factory, Prototype.mp4.md",
     "Разбор задач и вопросов.md",
