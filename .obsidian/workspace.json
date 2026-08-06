@@ -21,10 +21,14 @@
             "id": "9f9ad59526e40b62",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Без названия.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Без названия"
             }
           }
         ],
@@ -193,6 +197,7 @@
   },
   "active": "9f9ad59526e40b62",
   "lastOpenFiles": [
+    "Без названия.md",
     "Структурные шаблоны - Proxy, Decorator, Adapter.md",
     "Порождающие шаблоны Builder, Singleton, Factory Method, Abstract Factory, Prototype.mp4.md",
     "Разбор задач и вопросов.md",
@@ -220,7 +225,6 @@
     "Пирамиды и деревья поиска.md",
     "Орграфы.md",
     "Динамическое программирование и Жадность.md",
-    "Динамический массив. Списки Деки.md",
     "График роста алгосложности.png",
     "Без названия",
     "Без названия.canvas",
