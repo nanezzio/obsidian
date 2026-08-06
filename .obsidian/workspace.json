@@ -18,17 +18,13 @@
             }
           },
           {
-            "id": "acb5d4339a200b06",
+            "id": "9f9ad59526e40b62",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Структурные шаблоны - Proxy, Decorator, Adapter.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Структурные шаблоны - Proxy, Decorator, Adapter"
+              "title": "Новая вкладка"
             }
           }
         ],
@@ -52,7 +48,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -193,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "acb5d4339a200b06",
+  "active": "9f9ad59526e40b62",
   "lastOpenFiles": [
     "Структурные шаблоны - Proxy, Decorator, Adapter.md",
     "Порождающие шаблоны Builder, Singleton, Factory Method, Abstract Factory, Prototype.mp4.md",
