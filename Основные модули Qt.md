@@ -124,4 +124,14 @@ QT += widgets
 
 Модуль QtNetwork предлагает классы для взаимодействия по различным сетевым протоколам. Модуль предлагает два уровня классов:
 - низкоуровневые для разработки клиент-серверных соединений на уровне TCP/IP. Такие как QTcpServer, QTcpSocket и QUdpSocket
-- высокоуровневые такие как QNetworkRequest, QNetworkReply и QNetworkAccessManager, для выполнения сетевых операций (например HTTP запросов) с использование
+- высокоуровневые такие как QNetworkRequest, QNetworkReply и QNetworkAccessManager, для выполнения сетевых операций (например HTTP запросов) с использованием общих протоколов
+
+```
+find_package(Qt6 REQUIRED COMPONENT Network)
+target_link_libraries(mytarget Private Qt6::Network)
+
+QT += network 
+```
+
+
+### 
