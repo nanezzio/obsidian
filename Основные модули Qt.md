@@ -57,4 +57,6 @@ target_link_libraries(mytarget PRIVATE Qt6::Core)
 
 При использовании qmake этот модуль добавляется автоматически
 
-
+Модуль QrCore содержит в себе:
+- контейнерные классы: QList, QVector, QVariant, QString и т.д.
+- классы для ввода и вывода
