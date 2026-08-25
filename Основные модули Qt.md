@@ -104,5 +104,9 @@ target_link_libraries(mytarget PRIVATE Qt6::Gui)
 Виджет - элементарный элемент, который может быть размещен на пользовательском интерфейсе
 
 ```
-find_package(Qt6 REQUIRED COMPON)
+find_package(Qt6 REQUIRED COMPONENTS Widgets)
+target_link_libraries(mytarget PRIVATE Qt6::Widgets)
+
+QT += widgets
 ```
+
