@@ -148,5 +148,3 @@ target_link_libraries(mytarget PRIVATE Qt6::Sql)
 QT += sql
 ```
 
-
-### 
