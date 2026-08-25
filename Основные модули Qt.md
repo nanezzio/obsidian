@@ -79,4 +79,9 @@ target_link_libraries(mytarget PRIVATE Qt6::Core)
 
 ### Модуль QtGUI
 
-Модуль предоставляет классы интеграции оконной системы, с OpenGL и OpenGL ES. Он содержит класс QWindow
+Модуль предоставляет классы интеграции оконной системы, с OpenGL и OpenGL ES. Он содержит класс QWindow, который является элементарной областью с возможностью получения событий пользовательского ввода. Т.е. окна приложения 
+
+```
+find_package(Qt6 REQUIRED COMPONENTS Gui)
+target_link_libraries(mytarget PRIVATE Qt6::Gui)
+```
