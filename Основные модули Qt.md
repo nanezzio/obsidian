@@ -91,4 +91,12 @@ target_link_libraries(mytarget PRIVATE Qt6::Gui)
 
 ### Класс QGuiApplication
 
-Основной класс модуля QtGui - QGuiApplication является наследником QCoreApplication
+Основной класс модуля QtGui - QGuiApplication является наследником QCoreApplication, содержит механизм цикла событий и обладает также возможностями: 
+- получение доступа к буферу обмена
+- инициализации необходимых настроек приложения
+- управления формой курсора мыши
+
+
+### Модуль QtWidgets
+
+Этот модуль 
