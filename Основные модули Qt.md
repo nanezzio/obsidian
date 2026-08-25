@@ -60,4 +60,7 @@ target_link_libraries(mytarget PRIVATE Qt6::Core)
 Модуль QrCore содержит в себе:
 - контейнерные классы: QList, QVector, QVariant, QString и т.д.
 - классы для ввода и вывода: QIODevice, QTextStream, QFile
-- классы процесса QProccess и для программирования многопоточности: QThread, QWaitCondition, QM 
+- классы процесса QProccess и для программирования многопоточности: QThread, QWaitCondition, QMutex
+- классы для работы с таймером: QBasicTimer и QTimer
+- классы для работы с датой и временем: QDate и QTime
+- класс QObject, явля
