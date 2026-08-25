@@ -63,4 +63,7 @@ target_link_libraries(mytarget PRIVATE Qt6::Core)
 - классы процесса QProccess и для программирования многопоточности: QThread, QWaitCondition, QMutex
 - классы для работы с таймером: QBasicTimer и QTimer
 - классы для работы с датой и временем: QDate и QTime
-- класс QObject, явля
+- класс QObject, являющийся краеугольным камнем объектной модели Qt
+- базовый класс событий QEvent
+- класс для сохранения настроек приложения QSettings
+- класс приложения QCoreApplication, из объекта котор
