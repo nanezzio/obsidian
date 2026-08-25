@@ -85,3 +85,10 @@ target_link_libraries(mytarget PRIVATE Qt6::Core)
 find_package(Qt6 REQUIRED COMPONENTS Gui)
 target_link_libraries(mytarget PRIVATE Qt6::Gui)
 ```
+
+При использовании qmake этот модуль добавляется автоматически
+
+
+### Класс QGuiApplication
+
+Основной класс модуля QtGui - QGuiApplication является наследником QCoreApplication
