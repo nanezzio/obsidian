@@ -110,3 +110,7 @@ target_link_libraries(mytarget PRIVATE Qt6::Widgets)
 QT += widgets
 ```
 
+
+### Класс QApplication
+
+Класс QApplication
