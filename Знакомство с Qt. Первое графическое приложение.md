@@ -31,3 +31,10 @@ tags:
 - Стандартными средствами ОС
 - С помощью фреймворков
 
+
+### Обзор библиотек для C++
+
+-  Simple and Fast Multimedia Library (SFML)
+- Nana
+- Juce
+- wxWidgets
