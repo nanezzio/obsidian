@@ -52,5 +52,9 @@ qmake:
 
 ```
 find_package(Qt6 REQUIRED COMPONENTS Core)
-target_link_libraries(mytarget)
+target_link_libraries(mytarget PRIVATE Qt6::Core)
 ```
+
+При использовании qmake этот модуль добавляется автоматически
+
+
