@@ -31,7 +31,8 @@
               "title": "Без названия"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8181c3353573531c",
+  "active": "d8cdaf622e0fefa2",
   "lastOpenFiles": [
     "Без названия.md",
     "Qt Concurrent.md",
