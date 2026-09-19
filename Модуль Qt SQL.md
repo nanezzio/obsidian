@@ -10,3 +10,10 @@ tags:
 3. Уровень отображения данных
 
 Подключение:
+```
+find_package(Qt6 REQUIRED COMPONENTS Sql)
+target_link_libraries(mytarget PRIVATE Qt6::Sql)
+
+QT += sql
+```
+
