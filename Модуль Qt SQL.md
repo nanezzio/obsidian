@@ -17,3 +17,7 @@ target_link_libraries(mytarget PRIVATE Qt6::Sql)
 QT += sql
 ```
 
+
+### Классы для работы с БД
+
+QSql - содержит различные перечисления, исп
