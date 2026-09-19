@@ -27,5 +27,4 @@ QT += sql
 - QSqlDriverCreatorBase - фабрика QSqlDriver (Драйверов)
 - QSqlError - позволяет посмотреть ошибки полученный от БД (API БД)
 - QSqlField - позволяет управлять свойствами столбцов таблиц БД (API БД)
-
-
+- 
