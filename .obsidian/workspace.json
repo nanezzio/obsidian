@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Без названия.md",
+                "file": "Рисование графиков.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Без названия"
+              "title": "Рисование графиков"
             }
           }
         ],
@@ -197,7 +197,7 @@
   },
   "active": "d8cdaf622e0fefa2",
   "lastOpenFiles": [
-    "Без названия.md",
+    "Рисование графиков.md",
     "Qt Concurrent.md",
     "Слоты и сигналы.md",
     "Виджеты.md",
